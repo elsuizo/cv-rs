@@ -225,6 +225,7 @@ fn try_opencv_link(opencv_dir: &PathBuf) -> Result<(), Box<std::error::Error>> {
                 "cargo:rustc-link-search=native={}",
                 opencv_dir.to_str().unwrap()
             );
+	    let opencv_world_without_extension = "opencv_world";
             println!("cargo:rustc-link-lib={}", opencv_world_without_extension);
             Ok(())
         }
