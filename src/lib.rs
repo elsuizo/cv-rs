@@ -1,7 +1,7 @@
 //! This library primarily provides a binding and API for OpenCV 3.x.
 //!
 //! This is a work-in-progress and modules/functions are implemented as
-//! needed. Attempts to use
+//! needed. Attempts to use  
 //! [rust-bindgen](https://github.com/servo/rust-bindgen) or
 //! [cpp_to_rust](https://github.com/rust-qt/cpp_to_rust) haven't been very
 //! successful (I probably haven't tried hard enough). There is another port
